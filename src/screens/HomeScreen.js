@@ -22,6 +22,14 @@ const HomeScreen = (props) => {
         onPress={() => props.navigation.navigate('Square')}
         title="Square"
       />
+      <Button 
+        onPress={() => props.navigation.navigate('Text')}
+        title="Text"
+      />
+      <Button 
+        onPress={() => props.navigation.navigate('Box')}
+        title="Box"
+      />
       <TouchableOpacity
         onPress={() => props.navigation.navigate('Image') }
       >
